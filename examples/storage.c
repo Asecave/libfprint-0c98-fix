@@ -26,6 +26,7 @@
 #include "storage.h"
 
 #include <errno.h>
+#include <glib/gstdio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -206,6 +207,19 @@ gallery_data_load (FpDevice *dev)
     }
 
   return gallery;
+}
+
+gboolean
+clear_saved_prints (GError **error)
+{
+  if (g_unlink (STORAGE_FILE) != 0)
+    {
+      g_set_error_literal (error, G_IO_ERROR, g_io_error_from_errno (errno),
+                           "Failed to clear prints");
+      return FALSE;
+    }
+
+  return TRUE;
 }
 
 FpPrint *
