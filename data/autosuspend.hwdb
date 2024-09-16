@@ -163,6 +163,13 @@ usb:v04F3p0C9F*
  ID_AUTOSUSPEND=1
  ID_PERSIST=0
 
+# Supported by libfprint driver elanmoc2
+usb:v04F3p0C00*
+usb:v04F3p0C4C*
+usb:v04F3p0C5E*
+ ID_AUTOSUSPEND=1
+ ID_PERSIST=0
+
 # Supported by libfprint driver etes603
 usb:v1C7Ap0603*
  ID_AUTOSUSPEND=1
@@ -324,10 +331,7 @@ usb:v138Ap0091*
 usb:v047Dp00F2*
 usb:v04E8p730B*
 usb:v04F3p036B*
-usb:v04F3p0C00*
-usb:v04F3p0C4C*
 usb:v04F3p0C57*
-usb:v04F3p0C5E*
 usb:v04F3p0C5A*
 usb:v04F3p0C6C*
 usb:v04F3p0C70*
