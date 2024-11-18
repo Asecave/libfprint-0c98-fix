@@ -234,25 +234,27 @@ usb:v0BDAp5816*
 
 # Supported by libfprint driver synaptics
 usb:v06CBp00BD*
-usb:v06CBp00DF*
-usb:v06CBp00F9*
-usb:v06CBp00FC*
 usb:v06CBp00C2*
 usb:v06CBp00C4*
-usb:v06CBp0100*
+usb:v06CBp00C6*
+usb:v06CBp00DF*
 usb:v06CBp00F0*
+usb:v06CBp00F9*
+usb:v06CBp00FC*
+usb:v06CBp0100*
 usb:v06CBp0103*
+usb:v06CBp0104*
+usb:v06CBp0106*
+usb:v06CBp0107*
+usb:v06CBp0108*
 usb:v06CBp0123*
 usb:v06CBp0124*
 usb:v06CBp0126*
 usb:v06CBp0129*
-usb:v06CBp0168*
 usb:v06CBp015F*
-usb:v06CBp0104*
+usb:v06CBp0168*
 usb:v06CBp0173*
-usb:v06CBp0106*
 usb:v06CBp019D*
-usb:v06CBp00C6*
  ID_AUTOSUSPEND=1
  ID_PERSIST=0
 
